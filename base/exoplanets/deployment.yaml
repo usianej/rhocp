@@ -23,7 +23,7 @@ spec:
             name: db-config
         - secretRef:
             name: db-secrets
-        image: registry.ocp4.example.com:8443/redhattraining/exoplanets:v1.1.0
+        image: registry.ocp4.example.com:8443/redhattraining/exoplanets:v1.1.1
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
