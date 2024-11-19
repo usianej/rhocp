@@ -7,7 +7,7 @@ secretGenerator:
   literals:
     - DB_ADMIN_PASSWORD=postgres
     - DB_NAME=database
-    - DB_PASSWORD=password
+    - DB_PASSWORD=newpassword
     - DB_USER=user
 configMapGenerator:
 - name: db-config
